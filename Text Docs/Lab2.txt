@@ -1,0 +1,68 @@
+Script started on Thu 06 Apr 2017 05:05:53 PM PDT
+]0;dmoc@costello:~[01;32mdmoc@costello[01;34m ~ $[00m ct [K[Kat lab2[K1[K2A.java
+//Authors: Daniel Moc
+//Assignment: Lab 2A
+//Completed: 4/6/2017
+
+public class lab2A
+{
+	public static void main(String [] args)
+	{
+		System.out.println("Student:\t\"Daniel Moc\"");
+		System.out.println("Major:\t\t\\Undeclared\\");
+		System.out.print("Study List:\tCS \'130', \'140', and MAT \'115'");
+	}
+}
+]0;dmoc@costello:~[01;32mdmoc@costello[01;34m ~ $[00m javac lab1A.java[K[K[K[K[K[K[K2A.java
+]0;dmoc@costello:~[01;32mdmoc@costello[01;34m ~ $[00m java lab2a=[K[KA
+Student:	"Daniel Moc"
+Major:		\Undeclared\
+Study List:	CS '130', '140', and MAT '115']0;dmoc@costello:~[01;32mdmoc@costello[01;34m ~ $[00m cat Lab[K[K[Klab2B.ajva[K[K[K[K[K[Kv[Kb.java
+//Author: Daniel Moc
+//Assignment: Lab 2B
+//Completed: 4/6/2017
+
+import java.io.*;
+import java.util.*;
+public class lab2b
+{
+	public static void main(String []args)
+	{
+		//Create Scanner
+		Scanner kb = new Scanner(System.in);
+
+		//Inputs name
+		System.out.print("Name: ");
+		String name = kb.nextLine();
+
+		//Inputs age
+		System.out.print("Age: ");
+		int age = kb.nextInt();
+
+		//Kill the \n that is in the way of Company Name:
+		kb.nextLine();
+
+		//Inputs company name
+		System.out.print("Company Name: ");
+		String company = kb.nextLine();
+
+		//Inputs monthly salary
+		System.out.print("Monthly Salary: ");
+		double monthly = kb.nextDouble();
+
+		//Output the sentence and data
+		System.out.println("My name is " + name + ", my age is " + age + " and");
+		System.out.print("I hope to work for " + company + " and earn $" + (monthly * 12) + " per year.");
+	}
+}	
+]0;dmoc@costello:~[01;32mdmoc@costello[01;34m ~ $[00m javac lab2b.java
+]0;dmoc@costello:~[01;32mdmoc@costello[01;34m ~ $[00m java lab2v[Kb
+Name: Daniel Moc
+Age: 18
+Company Name: Samsung
+Monthly Salary: 700   85000     78000 
+My name is Daniel Moc, my age is 18 and
+I hope to work for Samsung and earn $93600.0 per year.]0;dmoc@costello:~[01;32mdmoc@costello[01;34m ~ $[00m exit
+exit
+
+Script done on Thu 06 Apr 2017 05:07:20 PM PDT

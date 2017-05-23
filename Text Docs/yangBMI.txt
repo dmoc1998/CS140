@@ -1,0 +1,83 @@
+Script started on Thu 13 Apr 2017 04:43:20 PM PDT
+]0;dmoc@costello:~[01;32mdmoc@costello[01;34m ~ $[00m exitjava yangBMI
+Metric or Imperial? Press i for Imperial or any other letter key for Metric.
+i
+Please enter your weight in lbs.
+145
+Please enter your height in inches.
+72
+Your BMI is 19
+Your BMI status is normal.
+]0;dmoc@costello:~[01;32mdmoc@costello[01;34m ~ $[00m java yangBMI
+Metric or Imperial? Press i for Imperial or any other letter key for Metric.
+i
+Please enter your weight in lbs.
+198
+Please enter your height in inches.
+70
+Your BMI is 28
+Your BMI status is overweight.
+]0;dmoc@costello:~[01;32mdmoc@costello[01;34m ~ $[00m java yangBMI
+Metric or Imperial? Press i for Imperial or any other letter key for Metric.
+i
+Please enter your weight in lbs.
+210
+Please enter your height in inches.
+68
+Your BMI is 31
+Your BMI status is obese.
+]0;dmoc@costello:~[01;32mdmoc@costello[01;34m ~ $[00m java yangBMI
+Metric or Imperial? Press i for Imperial or any other letter key for Metric.
+m
+Please enter your weight in kg.
+66
+Please enter your height in m.
+2
+Your BMI is 16
+Your BMI status is normal.
+]0;dmoc@costello:~[01;32mdmoc@costello[01;34m ~ $[00m java yangBMI
+Metric or Imperial? Press i for Imperial or any other letter key for Metric.
+a
+Please enter your weight in kg.
+100
+Please enter your height in m.
+2
+Your BMI is 25
+Your BMI status is overweight.
+]0;dmoc@costello:~[01;32mdmoc@costello[01;34m ~ $[00m java yangBMI
+Metric or Imperial? Press i for Imperial or any other letter key for Metric.
+n z
+Please enter your weight in kg.
+90
+Please enter your height in m.
+1
+Your BMI is 90
+Your BMI status is obese.
+]0;dmoc@costello:~[01;32mdmoc@costello[01;34m ~ $[00m java yangBMI
+Metric or Imperial? Press i for Imperial or any other letter key for Metric.
+i
+Please enter your weight in lbs.
+4b2
+Exception in thread "main" java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:864)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextInt(Scanner.java:2117)
+	at java.util.Scanner.nextInt(Scanner.java:2076)
+	at yangBMI.main(yangBMI.java:25)
+]0;dmoc@costello:~[01;32mdmoc@costello[01;34m ~ $[00m java yangBMI
+Metric or Imperial? Press i for Imperial or any other letter key for Metric.
+m o w
+Please enter your weight in kg.
+100
+Please enter your height in m.
+2.3
+Exception in thread "main" java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:864)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextInt(Scanner.java:2117)
+	at java.util.Scanner.nextInt(Scanner.java:2076)
+	at yangBMI.main(yangBMI.java:43)
+]0;dmoc@costello:~[01;32mdmoc@costello[01;34m ~ $[00m exit
+exit
+
+Script done on Thu 13 Apr 2017 04:45:19 PM PDT

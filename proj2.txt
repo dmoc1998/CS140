@@ -1,0 +1,221 @@
+Script started on Tue 09 May 2017 11:09:11 PM PDT
+]0;dmoc@abbott:~[01;32mdmoc@abbott[01;34m ~ $[00m javac [K proj2.java
+]0;dmoc@abbott:~[01;32mdmoc@abbott[01;34m ~ $[00m java proj2
+Pizza Size (inches)		Cost
+	10			$10.99
+	12			$12.99
+	14			$14.99
+	16			$16.99
+What size pizza would you like?
+15
+Please enter one of the available sizes.
+17
+Please enter one of the available sizes.
+11
+Please enter one of the available sizes.
+19
+Please enter one of the available sizes.
+21
+Please enter one of the available sizes.
+Sorry, system error :P
+]0;dmoc@abbott:~[01;32mdmoc@abbott[01;34m ~ $[00m java proj2
+Pizza Size (inches)		Cost
+	10			$10.99
+	12			$12.99
+	14			$14.99
+	16			$16.99
+What size pizza would you like?
+17
+Please enter one of the available sizes.
+16
+Please enter the crust you would like:
+The available crust types are hand-tossed, thin-crust, and deep-dish
+Press h for hand-tossed, t for thin-crust, and d for deep-dish
+q
+Please enter one of the available crusts.
+t
+All pizzas come with cheese.
+Additional toppings are $1.25 each, choose from:
+Pepperoni, Sausage, Onion, Mushroom
+Do you want pepperoni? (y/n)
+y
+Do you want sausage? (y/n)
+y
+Do you want onions? (y/n)
+n
+Do you want mushrooms? (y/n)
+n
+Enter coupon code (if any): winter20
+Your order is: 1 sixteen inch pizza(s), with cheese, pepperoni, sausage
+Final Cost: $16.92
+Would you like to order another pizza? Press y for yes and n for no
+n
+]0;dmoc@abbott:~[01;32mdmoc@abbott[01;34m ~ $[00m java proj2
+Pizza Size (inches)		Cost
+	10			$10.99
+	12			$12.99
+	14			$14.99
+	16			$16.99
+What size pizza would you like?
+12
+Please enter the crust you would like:
+The available crust types are hand-tossed, thin-crust, and deep-dish
+Press h for hand-tossed, t for thin-crust, and d for deep-dish
+d
+All pizzas come with cheese.
+Additional toppings are $1.25 each, choose from:
+Pepperoni, Sausage, Onion, Mushroom
+Do you want pepperoni? (y/n)
+n
+Do you want sausage? (y/n)
+n
+Do you want onions? (y/n)
+n
+Do you want mushrooms? (y/n)
+n
+Enter coupon code (if any): 
+Your order is: 1 twelve inch pizza(s), with cheese
+Final Cost: $16.26
+Would you like to order another pizza? Press y for yes and n for no
+y
+Pizza Size (inches)		Cost
+	10			$10.99
+	12			$12.99
+	14			$14.99
+	16			$16.99
+What size pizza would you like?
+10
+Please enter the crust you would like:
+The available crust types are hand-tossed, thin-crust, and deep-dish
+Press h for hand-tossed, t for thin-crust, and d for deep-dish
+h
+All pizzas come with cheese.
+Additional toppings are $1.25 each, choose from:
+Pepperoni, Sausage, Onion, Mushroom
+Do you want pepperoni? (y/n)
+y
+Do you want sausage? (y/n)
+y
+Do you want onions? (y/n)
+y
+Do you want mushrooms? (y/n)
+n
+Enter coupon code (if any): 
+Your order is: 2 ten inch pizza(s), with cheese, pepperoni, sausage, onion
+Final Cost: $33.34
+Would you like to order another pizza? Press y for yes and n for no
+y
+Pizza Size (inches)		Cost
+	10			$10.99
+	12			$12.99
+	14			$14.99
+	16			$16.99
+What size pizza would you like?
+14
+Please enter the crust you would like:
+The available crust types are hand-tossed, thin-crust, and deep-dish
+Press h for hand-tossed, t for thin-crust, and d for deep-dish
+d
+All pizzas come with cheese.
+Additional toppings are $1.25 each, choose from:
+Pepperoni, Sausage, Onion, Mushroom
+Do you want pepperoni? (y/n)
+y
+Do you want sausage? (y/n)
+n
+Do you want onions? (y/n)
+n
+Do you want mushrooms? (y/n)
+n
+Enter coupon code (if any): 
+Your order is: 3 fourteen inch pizza(s), with cheese, pepperoni, sausage, onion, pepperoni
+Final Cost: $53.13
+Would you like to order another pizza? Press y for yes and n for no
+n
+]0;dmoc@abbott:~[01;32mdmoc@abbott[01;34m ~ $[00m java proj2
+Pizza Size (inches)		Cost
+	10			$10.99
+	12			$12.99
+	14			$14.99
+	16			$16.99
+What size pizza would you like?
+16
+Please enter the crust you would like:
+The available crust types are hand-tossed, thin-crust, and deep-dish
+Press h for hand-tossed, t for thin-crust, and d for deep-dish
+t
+All pizzas come with cheese.
+Additional toppings are $1.25 each, choose from:
+Pepperoni, Sausage, Onion, Mushroom
+Do you want pepperoni? (y/n)
+y
+Do you want sausage? (y/n)
+q
+Do you want onions? (y/n)
+a
+Do you want mushrooms? (y/n)
+n
+Enter coupon code (if any): vipmax
+Your order is: 1 sixteen inch pizza(s), with cheese, pepperoni
+Final Cost: $15.83
+Would you like to order another pizza? Press y for yes and n for no
+n
+]0;dmoc@abbott:~[01;32mdmoc@abbott[01;34m ~ $[00m java proj2
+Pizza Size (inches)		Cost
+	10			$10.99
+	12			$12.99
+	14			$14.99
+	16			$16.99
+What size pizza would you like?
+14
+Please enter the crust you would like:
+The available crust types are hand-tossed, thin-crust, and deep-dish
+Press h for hand-tossed, t for thin-crust, and d for deep-dish
+d
+All pizzas come with cheese.
+Additional toppings are $1.25 each, choose from:
+Pepperoni, Sausage, Onion, Mushroom
+Do you want pepperoni? (y/n)
+n
+Do you want sausage? (y/n)
+n
+Do you want onions? (y/n)
+y
+Do you want mushrooms? (y/n)
+y
+Enter coupon code (if any): winter20
+Your order is: 1 fourteen inch pizza(s), with cheese, onion, mushroom
+Final Cost: $16.92
+Would you like to order another pizza? Press y for yes and n for no
+y
+Pizza Size (inches)		Cost
+	10			$10.99
+	12			$12.99
+	14			$14.99
+	16			$16.99
+What size pizza would you like?
+14
+Please enter the crust you would like:
+The available crust types are hand-tossed, thin-crust, and deep-dish
+Press h for hand-tossed, t for thin-crust, and d for deep-dish
+d
+All pizzas come with cheese.
+Additional toppings are $1.25 each, choose from:
+Pepperoni, Sausage, Onion, Mushroom
+Do you want pepperoni? (y/n)
+n
+Do you want sausage? (y/n)
+n
+Do you want onions? (y/n)
+y
+Do you want mushrooms? (y/n)
+y
+Enter coupon code (if any): winter20
+Your order is: 2 fourteen inch pizza(s), with cheese, onion, mushroom, onion, mushroom
+Final Cost: $33.83
+Would you like to order another pizza? Press y for yes and n for no
+n
+]0;dmoc@abbott:~[01;32mdmoc@abbott[01;34m ~ $[00m exit
+exit
+
+Script done on Tue 09 May 2017 11:12:01 PM PDT

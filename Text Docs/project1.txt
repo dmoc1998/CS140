@@ -1,0 +1,306 @@
+Script started on Tue 25 Apr 2017 08:49:40 PM PDT
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m cat task1.java
+//Daniel Moc
+//CS 140
+//Project 1, Problem 1 - hourly pay rate
+//4/25/17
+
+import java.util.*;
+import java.io.*;
+public class task1
+{
+	public static void main(String[] args)
+	{
+		//Scanner
+		Scanner kb = new Scanner(System.in);
+
+	//Variables
+
+		int hoursWorked;
+		double rate;
+		int normalHours;
+		double overtimePay;
+		double extraPay;
+
+
+	//Ask for hours and pay rate
+
+		System.out.println("Please enter the hours you worked this week:");
+		hoursWorked = kb.nextInt();
+
+		System.out.println("Please enter your pay rate:");
+		System.out.print("$");
+		rate = kb.nextDouble();
+
+	//Determine gross pay and stuff
+
+		if(hoursWorked >= 15 && hoursWorked <= 40)
+		{
+			double grossPay1 = (hoursWorked * rate);
+			System.out.println("Your gross pay is $" + grossPay1);
+		}
+		else if(hoursWorked < 15)
+		{
+			System.out.println("Your gross pay is $0.");
+			System.out.println("Sorry, you need to work at least 15 hours to get paid this week.");
+			System.out.println("Your work hours will be deferred to next week.");
+			System.out.println("Hours deferred: " + hoursWorked);
+		}
+
+		else if(hoursWorked > 40 && hoursWorked <= 60)
+		{
+			int extraHours = (hoursWorked - 40);
+			hoursWorked = (hoursWorked - extraHours);
+			double grossPay1 = (hoursWorked * rate);
+			extraPay = (extraHours * rate * 1.5);
+			overtimePay = grossPay1 + extraPay;
+			System.out.println("You have overtime hours.");
+			System.out.println("Your gross pay is $" + overtimePay);
+		}
+
+		else if(hoursWorked > 60)
+		{
+			int hoursIgnored = (hoursWorked - 60);
+			hoursWorked = 40;
+			int extraHours = 20;
+			extraPay = (extraHours * rate * 1.5);
+			double grossPay1 = (hoursWorked * rate);
+			double max = (grossPay1 + extraPay);
+			System.out.println("Sorry, you cannot work more than 60 hours a week.");
+			System.out.println("You will make the maximum gross pay of $" + max);
+			System.out.println("Hours deferred: " + hoursIgnored);
+		}	
+	}
+}
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task1
+Please enter the hours you worked this week:
+35
+Please enter your pay rate:
+$25.0
+Your gross pay is $875.0
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m [K]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task1
+Please enter the hours you worked this week:
+22
+Please enter your pay rate:
+$18.5
+Your gross pay is $407.0
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task1
+Please enter the hours you worked this week:
+42
+Please enter your pay rate:
+$20
+You have overtime hours.
+Your gross pay is $860.0
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task1
+Please enter the hours you worked this week:
+58
+Please enter your pay rate:
+$22.8
+You have overtime hours.
+Your gross pay is $1527.6
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task1
+Please enter the hours you worked this week:
+12
+Please enter your pay rate:
+$25
+Your gross pay is $0.
+Sorry, you need to work at least 15 hours to get paid this week.
+Your work hours will be deferred to next week.
+Hours deferred: 12
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task1
+Please enter the hours you worked this week:
+65
+Please enter your pay rate:
+$25
+Sorry, you cannot work more than 60 hours a week.
+You will make the maximum gross pay of $1750.0
+Hours deferred: 5
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m cat task2.java
+//Daniel Moc
+//CS 140
+//Project 1, problem 2 - months
+//4/25/17
+
+import java.util.*;
+import java.io.*;
+public class task2
+{
+	public static void main(String[] args)
+	{
+		//Scanner
+		Scanner kb = new Scanner(System.in);
+
+	//Ask for month input
+		System.out.print("Enter month (1-12): ");
+		int month = kb.nextInt();
+
+	//Ask for day input
+		System.out.print("Enter day (1-31): ");
+		int day = kb.nextInt();
+
+	//Create invalid areas
+		if(month <=0 || month >12)
+		{
+			System.out.println("Invalid month!");
+			System.exit(0);
+		}
+		if(day <=0 || day >31)
+		{
+			System.out.println("Invalid day!");
+			System.exit(0);
+		}
+
+	//Calculations
+		switch(month)
+		{
+			case 1:
+				System.out.println(month + "/" + day + " is the Winter Season.");
+				break;
+			case 2:
+				System.out.println(month + "/" + day + " is the Winter Season.");
+				break;
+			case 3:
+				if(day <=20)
+				{
+					System.out.println(month + "/" + day + " is the Winter Season.");
+				} else {
+					System.out.println(month + "/" + day + " is the Spring Season.");
+				}
+				break;
+			case 4:
+				System.out.println(month + "/" + day + " is the Spring Season.");
+				break;
+			case 5:
+				System.out.println(month + "/" + day + " is the Spring Season.");
+				break;
+			case 6:
+				if(day <=20)
+				{
+					System.out.println(month + "/" + day + " is the Spring Season.");
+				} else {
+					System.out.println(month + "/" + day + " is the Summer Season.");
+				}
+				break;
+			case 7:
+				System.out.println(month + "/" + day + " is the Summer Season.");
+				break;
+			case 8:
+				System.out.println(month + "/" + day + " is the Summer Season.");
+				break;
+			case 9:
+				if(day <=20)
+				{
+					System.out.println(month + "/" + day + " is the Summer Season.");
+				} else {
+					System.out.println(month + "/" + day + " is the Fall Season.");
+				}
+				break;
+			case 10:
+				System.out.println(month + "/" + day + " is the Fall Season.");
+				break;
+			case 11:
+				System.out.println(month + "/" + day + " is the Fall Season.");
+				break;
+			case 12:
+				if(day <=20)
+				{
+					System.out.println(month + "/" + day + " is the Fall Season.");
+				} else {
+					System.out.println(month + "/" + day + " is the Winter Season.");
+				}
+				break;
+		}
+	}
+}
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task2
+Enter month (1-12): 1
+Enter day (1-31): 5
+1/5 is the Winter Season.
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task2
+Enter month (1-12): 2
+Enter day (1-31): 5
+2/5 is the Winter Season.
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task2
+Enter month (1-12): 4
+Enter day (1-31): 10
+4/10 is the Spring Season.
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task2
+Enter month (1-12): 5
+Enter day (1-31): 10
+5/10 is the Spring Season.
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task2
+Enter month (1-12): 7
+Enter day (1-31): 15
+7/15 is the Summer Season.
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task28[K
+Enter month (1-12): 8
+Enter day (1-31): 15
+8/15 is the Summer Season.
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task210[K[K[K2
+Enter month (1-12): 10
+Enter day (1-31): 20
+10/20 is the Fall Season.
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task2
+Enter month (1-12): 11
+Enter day (1-31): 20
+11/20 is the Fall Season.
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task2
+Enter month (1-12): 3
+Enter day (1-31): 20
+3/20 is the Winter Season.
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task2
+Enter month (1-12): 3
+Enter day (1-31): 21
+3/21 is the Spring Season.
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task2
+Enter month (1-12): 6
+Enter day (1-31): 20
+6/20 is the Spring Season.
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task2
+Enter month (1-12): 6
+Enter day (1-31): 21
+6/21 is the Summer Season.
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task2
+Enter month (1-12): 9
+Enter day (1-31): 20
+9/20 is the Summer Season.
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task2
+Enter month (1-12): 9
+Enter day (1-31): 21
+9/21 is the Fall Season.
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task2
+Enter month (1-12): 12
+Enter day (1-31): 20
+12/20 is the Fall Season.
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task2
+Enter month (1-12): 12
+Enter day (1-31): 21
+12/21 is the Winter Season.
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task2
+Enter month (1-12): 0
+Enter day (1-31): 10
+Invalid month!
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task2
+Enter month (1-12): -3
+Enter day (1-31): 10
+Invalid month!
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task2
+Enter month (1-12): 13
+Enter day (1-31): 10
+Invalid month!
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task2
+Enter month (1-12): 5
+Enter day (1-31): 0
+Invalid day!
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task2
+Enter month (1-12): 5
+Enter day (1-31): -5
+Invalid day!
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m java task2
+Enter month (1-12): 5
+Enter day (1-31): 32
+Invalid day!
+]0;dmoc@costello:~/cs140/project[01;32mdmoc@costello[01;34m ~/cs140/project $[00m end[K[Ks[Kxit
+exit
+
+Script done on Tue 25 Apr 2017 08:53:45 PM PDT

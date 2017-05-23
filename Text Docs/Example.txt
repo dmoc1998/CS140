@@ -1,0 +1,21 @@
+Script started on Thu 30 Mar 2017 11:03:10 AM PDT
+]0;dmoc@costello:~/cs140[01;32mdmoc@costello[01;34m ~/cs140 $[00m cat Example.java
+// Daniel Moc
+// 3/30/2017
+public class Example
+{
+ public static void main(String[] args)
+ {
+  System.out.print("This is an example Java program");
+  System.out.println();
+  System.out.println(" ... a very SIMPLE one...");
+ }
+}
+]0;dmoc@costello:~/cs140[01;32mdmoc@costello[01;34m ~/cs140 $[00m J[Kjavac Eampl[K[K[K[Kxample.java
+]0;dmoc@costello:~/cs140[01;32mdmoc@costello[01;34m ~/cs140 $[00m java Example
+This is an example Java program
+ ... a very SIMPLE one...
+]0;dmoc@costello:~/cs140[01;32mdmoc@costello[01;34m ~/cs140 $[00m exit
+exit
+
+Script done on Thu 30 Mar 2017 11:03:37 AM PDT

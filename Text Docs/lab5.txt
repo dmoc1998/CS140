@@ -1,0 +1,89 @@
+Script started on Thu 27 Apr 2017 09:44:21 PM PDT
+]0;dmoc@abbott:~[01;32mdmoc@abbott[01;34m ~ $[00m exitjava lab5a[6Pexitjava lab5a
+Metric or Imperial? Press i for Imperial or any other letter key for Metric.
+i
+Please enter your weight in lb.
+145
+Please enter your height in in.
+71
+Your BMI is 20
+Your BMI status is normal.
+Do you want to calculate another BMI? Enter Y or y for Yes.
+y
+Metric or Imperial? Press i for Imperial or any other letter key for Metric.
+m
+Please enter your weight in kg.
+68
+Please enter your height in m.
+2
+Your BMI is 17
+Your BMI status is normal.
+Do you want to calculate another BMI? Enter Y or y for Yes.
+y
+Metric or Imperial? Press i for Imperial or any other letter key for Metric.
+i
+Please enter your weight in lb.
+200
+Please enter your height in in.
+72
+Your BMI is 27
+Your BMI status is overweight.
+Do you want to calculate another BMI? Enter Y or y for Yes.
+y
+Metric or Imperial? Press i for Imperial or any other letter key for Metric.
+m
+Please enter your weight in kg.
+70 1
+Please enter your height in m.
+2
+Your BMI is 17
+Your BMI status is normal.
+Do you want to calculate another BMI? Enter Y or y for Yes.
+y
+Metric or Imperial? Press i for Imperial or any other letter key for Metric.
+i
+Please enter your weight in lb.
+17  9 115
+Please enter your height in in.
+71
+Your BMI is 16
+Your BMI status is normal.
+Do you want to calculate another BMI? Enter Y or y for Yes.
+n
+]0;dmoc@abbott:~[01;32mdmoc@abbott[01;34m ~ $[00m java lab5a[6Pexitjava lab5a[6Pexitjava lab5a[6Pexitjava lab5a[Kb
+Please enter number of rows: 
+4
+*
+**
+***
+****
+Would you like to try again? Press y for yes.
+y
+Please enter number of rows: 
+6
+*
+**
+***
+****
+*****
+******
+Would you like to try again? Press y for yes.
+y
+Please enter number of rows: 
+10
+*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+**********
+Would you like to try again? Press y for yes.
+n
+]0;dmoc@abbott:~[01;32mdmoc@abbott[01;34m ~ $[00m exit
+exit
+
+Script done on Thu 27 Apr 2017 09:48:45 PM PDT

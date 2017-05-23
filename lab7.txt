@@ -1,0 +1,89 @@
+Script started on Thu 11 May 2017 01:51:29 PM PDT
+]0;dmoc@costello:~[01;32mdmoc@costello[01;34m ~ $[00m script proj2.txt[1Ppico proj2.java[1Pcat[C[C[C[C[C[C[C[C[C[C[Cexit[Kcat proj2.java[1@pico[C[C[C[C[C[C[C[C[C[C[Cscript proj2.txt[Kscript proj2.txt[Kl[Kjava 7[Klab7
+This is a geometry calculator 
+Choose what you would like to calculate!
+1. Find the area of a circle 
+2. Find the area of a rectangle 
+3. Find the area of a triangle 
+4. Find the circumference of a cirle 
+5. Find the perimeter of a rectangle 
+6. Find the perimeter of a triangle
+Enter the number of your choice: 1
+Enter the radius of the circle:  4
+The area of the circle is 50.26548245743669
+Do you want to exit the program? (y/n): 
+n
+This is a geometry calculator 
+Choose what you would like to calculate!
+1. Find the area of a circle 
+2. Find the area of a rectangle 
+3. Find the area of a triangle 
+4. Find the circumference of a cirle 
+5. Find the perimeter of a rectangle 
+6. Find the perimeter of a triangle
+Enter the number of your choice: 2
+Enter the length of the rectangle:  10
+Enter the width of the rectangle:  15
+The area of the rectangle is 150.0
+Do you want to exit the program? (y/n): 
+n
+This is a geometry calculator 
+Choose what you would like to calculate!
+1. Find the area of a circle 
+2. Find the area of a rectangle 
+3. Find the area of a triangle 
+4. Find the circumference of a cirle 
+5. Find the perimeter of a rectangle 
+6. Find the perimeter of a triangle
+Enter the number of your choice: 3
+Enter the height of the triangle:  4.3
+Enter the base of the triangle:  2.7
+The area of the triangle is 5.805
+Do you want to exit the program? (y/n): 
+n
+This is a geometry calculator 
+Choose what you would like to calculate!
+1. Find the area of a circle 
+2. Find the area of a rectangle 
+3. Find the area of a triangle 
+4. Find the circumference of a cirle 
+5. Find the perimeter of a rectangle 
+6. Find the perimeter of a triangle
+Enter the number of your choice: 4
+Enter the radius of the circle:  7.8 9
+The circumference of the circle is 49.637163926718735
+Do you want to exit the program? (y/n): 
+n
+This is a geometry calculator 
+Choose what you would like to calculate!
+1. Find the area of a circle 
+2. Find the area of a rectangle 
+3. Find the area of a triangle 
+4. Find the circumference of a cirle 
+5. Find the perimeter of a rectangle 
+6. Find the perimeter of a triangle
+Enter the number of your choice: 5
+Enter the length of the rectangle:  7
+Enter the width of the rectangle:  0.87
+The perimeter of the rectangle is 15.74
+Do you want to exit the program? (y/n): 
+^[[A    n
+This is a geometry calculator 
+Choose what you would like to calculate!
+1. Find the area of a circle 
+2. Find the area of a rectangle 
+3. Find the area of a triangle 
+4. Find the circumference of a cirle 
+5. Find the perimeter of a rectangle 
+6. Find the perimeter of a triangle
+Enter the number of your choice: 6
+Enter the length of side 1 of the triangle:  14.2
+Enter the length of side 2 of the triangle:  0.9
+Enter the length of side 3 of the triangle:  3.14
+The perimeter of the triangle is 18.24
+Do you want to exit the program? (y/n): 
+y
+]0;dmoc@costello:~[01;32mdmoc@costello[01;34m ~ $[00m exit
+exit
+
+Script done on Thu 11 May 2017 01:59:31 PM PDT

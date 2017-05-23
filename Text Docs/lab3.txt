@@ -1,0 +1,47 @@
+Script started on Tue 11 Apr 2017 11:52:31 PM PDT
+]0;dmoc@abbott:~[01;32mdmoc@abbott[01;34m ~ $[00m java lab2[K3a
+Weight: 52.5
+Height: 1.62
+
+Weight: 52.50
+Height: 1.62
+BMI: 20.00
+]0;dmoc@abbott:~[01;32mdmoc@abbott[01;34m ~ $[00m java lab[Kb3a
+Weight: 75
+Height: 1.68
+
+Weight: 75.00
+Height: 1.68
+BMI: 26.57
+]0;dmoc@abbott:~[01;32mdmoc@abbott[01;34m ~ $[00m java lab3a
+Weight: 145
+Height: 23.4   .24
+
+Weight: 145.00
+Height: 2.24
+BMI: 28.90
+]0;dmoc@abbott:~[01;32mdmoc@abbott[01;34m ~ $[00m java lab3b
+Weight: 110.4 5
+Height 62.5
+
+Weight: 110.50
+Height: 62.50
+BMI: 19.89
+]0;dmoc@abbott:~[01;32mdmoc@abbott[01;34m ~ $[00m java lab3b
+Weight: 180
+Height 68
+
+Weight: 180.00
+Height: 68.00
+BMI: 27.37
+]0;dmoc@abbott:~[01;32mdmoc@abbott[01;34m ~ $[00m java lab3b
+Weight: 145
+Height 80
+
+Weight: 145.00
+Height: 80.00
+BMI: 15.93
+]0;dmoc@abbott:~[01;32mdmoc@abbott[01;34m ~ $[00m exit
+exit
+
+Script done on Tue 11 Apr 2017 11:54:09 PM PDT
